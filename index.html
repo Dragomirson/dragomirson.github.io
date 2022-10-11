@@ -44,149 +44,258 @@
     font-family: Pompadur, 'Comic Sans MS', cursive;
 	
    }
+   .color {
+color: #f01313;
+}
+hr.fancy-line { 
+    
+    border: 0; 
+    height: 1px; 
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(215,215,215,0.75), rgba(0,0,0,0)); 
+    background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(215,215,215,0.75), rgba(0,0,0,0)); 
+    background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(215,215,215,0.75), rgba(0,0,0,0)); 
+    background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(215,215,215,0.75), rgba(0,0,0,0)); 
+    box-shadow: 0px -2px 4px rgba(136,136,136,0.75);
+	
   </style>
+  
+  
+	<style type="text/css">
+	html
+	{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{height:auto}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:700}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
+	body{
+		margin: 0;
+		padding: 0;	
+		text-align: left;
+	}
+	</style>
 
- <img src=»/logo.jpg» class=»background» />
+ 
+<!--<div class=»background»>
+
+<img src="https://dragomirson.github.io/logo.jpg" />
+
+</div>
 <style>
 Copy
 
-img.background {
-
-min-height: 100%;
-
-min-width: 640px;
-
-width: 100%;
-
-height: auto;
+div.background {
 
 position: fixed;
+
+top: -50%;
+
+left: -50%;
+
+width: 200%;
+
+height: 200%;
+
+}
+
+img {
+
+position: absolute;
 
 top: 0;
 
 left: 0;
 
-/* Определяется размером картинки */
+right: 0;
 
-@media screen and (max-width: 640px){
+bottom: 0;
 
-img.bg {
+margin: auto;
 
-left: 50%;
+min-width: 50%;
 
-margin-left: -320px;
-
-}
-
-}
+min-height: 50%;
 
 }
 </style>
-
+-->
   </head>
-  <body >
+  <body  bgcolor="#111111" text="aca8ac">
   
 
     <div class="container-lg px-3 my-5 markdown-body">
-	<h1 align="center" id="портфолио">Портфолио</h1>
- <table  align="center" width="800" bgcolor="#e9e9e9">
+	<h1 class="color" align="center" id="портфолио">Портфолио</h1>
+	
+<!--           О себе              -->
+	
+<table class="table"  align="center" width="800" bgcolor="2d2d2d">
  <tr>
  <td><img align="justify
 " src="https://dragomirson.github.io/logo.jpg" height="256" alt="LOGO" /></td>
  <td>
-<p align="center">Приветствую! Меня зовут Леоненко Данила!</p>
-<p align="center">С 6х лет увлекаюсь компьютерными играми и начинал свой путь с Stronghold Crusader,Принц Персии,Героев 3. Путь разработчика начал
+<p align="center"><font color="white" size="5">Приветствую! Меня зовут Леоненко Данила!</font></p>
+<p align="center"><font  color="#eeeeee" size="4">С 6х лет увлекаюсь компьютерными играми и начинал свой путь с Stronghold Crusader,Принц Персии,Героев 3. Путь разработчика начал
 ещё в школе, на Unity делал игру по видео-урокам, потом перешёл на Unreal
 Engine 4. С школьным другом и по сей день занимаемся разработкой, наша команда
 зовётся Nord Vader. Сейчас мы делаем различные ассеты для Marketplace Unreal Engine, такие
 как система лучной стрельбы, система осмотра тела, карточный квестовый движок и
 прочее. Помимо этого, в Steam у нас есть страница с игрой Master Wulder которая
-сейчас находится в разработке.</p>
+сейчас находится в разработке.</font></p>
 </td>
  </tr>
  </table>
  
-<hr size="10" width="800" color="#b6b6b6">
+<hr class="fancy-line" width="800" ></hr>
 
- <table  align="center" width="800" bgcolor="#e9e9e9">
+<!--           Предпочтения              -->
+
+<table class="table"  align="center" width="800" bgcolor="2d2d2d">
  <tr>
  <td>
  
-<h2 id="предпочтения">Предпочтения</h2>
+<h2 align="center" class="color" id="предпочтения">Предпочтения</h2>
 
-
+<!--
 <div>
-<img src="https://pic.onlinewebfonts.com/svg/img_474409.svg" height="64" alt="PC" />
-<img src="https://www.pngarts.com/files/1/Xbox-PNG-Free-Download.png" height="64" />
+<img align="center" src="https://pic.onlinewebfonts.com/svg/img_474409.svg" height="64" alt="PC" />
+<img align="center" src="https://www.pngarts.com/files/1/Xbox-PNG-Free-Download.png" height="64" />
 </div>
-<p>Чаще всего, для разработчика игр важно, обладать богатым опытом и познанием в играх. <br />
+-->
+
+<p align="center"><font color="#eeeeee" size="4">Чаще всего, для разработчика игр важно, обладать богатым опытом и познанием в играх. <br />
 Существует множество жанров и платформ на которых я играл, но среди них есть и фавориты.
-Лидирующая платформа это ПК, на ней чаще всего лидируют для меня Стратегии,RPG, Симуляторы выживания,Хоррор,Экшены.</p>
+Лидирующая платформа это ПК, на ней чаще всего лидируют для меня Стратегии,RPG, Симуляторы выживания,Хоррор,Экшены.</font></p>
+</td>
+<td>
 </td>
  </tr>
  </table>
+ 
+      <!--           Образование             -->
+
+<table class="table"  align="center" width="800" bgcolor="2d2d2d">
+ <tbody>
+   <tr>
+    <td>
+     <h2 align="center" class="color" id="образование">Образование</h2>
+    </td>
+     <td>
+     </td>
+   </tr>
+ 
+   <tr>
+    <td>
+     <p align="center" ><font color="blue" >Оператор электронно-вычислительных и вычислительных машин, Мастер по обработке цифровой информации</font> </p>
+   </tr>
+ 
+   <tr>
+    <td>
+     <p align="center"> <font size="3">Шатурский Энергетический Техникум с 2013 по 2017</font></p>
+    </td>
+   </tr>
+ </tbody>
+</table>
+
+      <!--           Опыт работы             -->
+
+<table class="table"  align="center" width="800" bgcolor="2d2d2d">
+ <tbody>
+   <tr>
+    <td>
+     <h2 align="center" class="color" id="опыт-работы">Опыт работы</h2>
+    </td>
+     <td>
+	 <h2 align="center" class="color" >Период</h2>
+     </td>
+   </tr>
+ 
+   <tr>
+    <td>
+     <p align="center" ><font size="4" color="black" >Middle Gamedev Developer, MASD (удаленно)</font> </p>
+	 </td>
+	 <td>
+	  <p align="center" >
+	   <font size="4" color="black">
+        Январь 2022 - Июль 2022
+       </font>
+	  </p>
+	 </td>
+   </tr>
+ 
+   <tr>
+    <td>
+	 <a href="https://hh.ru/resume/78b25db9ff0915fe610039ed1f35765771506e">
+      <img src="https://img.shields.io/badge/HH-red?style=for-the-badge&amp;logo=hh&amp;logoColor=white&amp;label=HeadHunter" alt="hh Badge" />
+     </a>
+	 <a href="https://www.linkedin.com/in/danilaleonenko/">
+      <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn Badge" />
+     </a>
+	</td>
+	<td>
+	</td>
+   </tr>
+ </tbody>
+</table>
+
+ <!--           Мои работы             -->
+
+<table class="table"  align="center" width="800" bgcolor="2d2d2d">
+ <tbody>
+   <tr>
+    <td>
+     <h2 align="center" class="color" id="мои-работы">Мои работы</h2>
+    </td>
+     <td>
+     </td>
+   </tr>
+ 
+   <tr>
+    <td>
+     <p align="center" >
+	  <font size="4" color="black" >Симулятор бога лучной стрельбы с элементами охоты и выживания.</br>  </br>
+	  </font>
+	  
+	 <iframe width="900" height="600" src="https://www.youtube.com/embed/mE9uWLYWd10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+	 </p>
+	</td>
+	 <td>
+       <p><a href="https://store.steampowered.com/app/1915880/Master_Wulder/">
+           <img src="https://img.shields.io/badge/Steam-blue?style=for-the-badge&amp;logo=steam&amp;logoColor=white" alt="Steam Badge" />
+          </a>
+	   </p>
+	 </td>
+   </tr>
+ 
+   <tr>
+    <td>
+     <p align="center"> <font size="4" color="white" >Мультиплеерный шутер от первого лица с механиками королевской битвы и интеграцией блокчейн технологий.</br>  </br>
+	  </font>
+	  <iframe width="900" height="600" src="https://www.youtube.com/embed/sCciS7fTOAc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+	  </p>
+    </td>
+	<td>
       
+    </td>
+   </tr>
+   
+   <tr>
+    <td>
+     <p align="center"> <font size="4" color="black" >РПГ в сеттинге средневековья с ориентированной системой боя (проект на данный момент заморожен)</br>  </br>
+	  </font>
+	  <iframe src="https://vk.com/video_ext.php?oid=176050059&amp;id=456240193&amp;hash=b854097d2e116d79&amp;hd=2" width="900" height="600" allow="encrypted-media; fullscreen; picture-in-picture;" frameborder="0" allowfullscreen=""></iframe>
+	  </p>
+    </td>
+	<td>
+      
+    </td>
+   </tr>
+   
+ </tbody>
+</table>
 
 
 
 
 
-<h2 id="образование">Образование</h2>
-<p>Оператор электронно-вычислительных и вычислительных машин, Мастер по обработке цифровой информации</p>
-<ul>
-  <li>Шатурский Энергетический Техникум с 2013 по 2017</li>
-</ul>
 
-<h2 id="опыт-работы">Опыт работы</h2>
 
-<p>Middle Gamedev Developer, MASD (удаленно)</p>
-<blockquote>
-  <p>Январь 2022 - Июль 2022
-<br /></p>
-</blockquote>
 
-<a href="https://hh.ru/resume/78b25db9ff0915fe610039ed1f35765771506e">
-<img src="https://img.shields.io/badge/HH-red?style=for-the-badge&amp;logo=hh&amp;logoColor=white&amp;label=HeadHunter" alt="hh Badge" />
-</a>
-<br /></p>
-</blockquote>
-
-<h2 id="мои-работы">Мои работы</h2>
-
-<ul>
-  <li>Симулятор бога лучной стрельбы с элементами охоты и выживания.</li>
-</ul>
-
-<p><a href="https://store.steampowered.com/app/1915880/Master_Wulder/">
-<img src="https://img.shields.io/badge/Steam-blue?style=for-the-badge&amp;logo=steam&amp;logoColor=white" alt="Steam Badge" />
-</a>
-<br /></p>
-<iframe width="900" height="600" src="https://www.youtube.com/embed/mE9uWLYWd10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-
-<p><br /></p>
-
-<ul>
-  <li>Мультиплеерный шутер от первого лица с механиками королевской битвы и интеграцией блокчейн технологий.</li>
-</ul>
-
-<iframe width="900" height="600" src="https://www.youtube.com/embed/sCciS7fTOAc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-<p><br /></p>
-
-<ul>
-  <li>РПГ в сеттинге средневековья с ориентированной системой боя (проект на данный момент заморожен)</li>
-</ul>
-
-<iframe src="https://vk.com/video_ext.php?oid=176050059&amp;id=456240193&amp;hash=b854097d2e116d79&amp;hd=2" width="900" height="600" allow="encrypted-media; fullscreen; picture-in-picture;" frameborder="0" allowfullscreen=""></iframe>
-<p><br /></p>
-
-<ul>
-  <li>Симулятор обучающий работе с планетарной мельницей с интегрированной достоверной математической моделью</li>
-</ul>
-<iframe width="900" height="600" src="https://www.youtube.com/embed/JqXQreq_nKM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-<p><br /></p>
-
-<ul>
-  <li>Genetic god - Стратегия - симулятор бога с ботами, чей AI работает про принципу генетического кода, хранящего поведение, боты чей генотип позволяет выжить, дают потомство, другие вымирают. Обучаемые боты иллюстрируют принцип эволюции. – <a href="https://t.me/geneticGod">тг-канал</a></li>
+ 
   <li>Bow shooting System – Ассет для маркетплейса реализующий механику стрельбы из лука и включающий в себя AI-ботов, использующих эту систему. <a href="https://www.unrealengine.com/marketplace/en-US/product/bow-shooting-system">Bow Shooting System in Blueprints - UE Marketplace (unrealengine.com)</a></li>
   <li>Card Quest System – Ассет позволяющий реализовать на своей базе квестовый карточный проект с ветвящимся сюжетом, построение которого осуществляется при помощи кастомизируемых нод. <a href="https://www.unrealengine.com/marketplace/en-US/product/card-quest-system">Card Quest System in Blueprints - UE Marketplace (unrealengine.com)</a></li>
   <li>Body Examination System – Ассет добавляющий возможность осмотра тела и взаимодействия с объектами на нём при помощи иммерсионной кинематики (IK) <a href="https://www.unrealengine.com/marketplace/en-US/product/body-examination-system">Body Examination System in Blueprints - UE Marketplace (unrealengine.com)</a></li>
@@ -210,5 +319,54 @@ Engine 4. С школьным другом и по сей день занима�
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
     <script>anchors.add();</script>
+	<style type="text/css">
+.table {
+	width: 100%;
+	border: none;
+	margin-bottom: 20px;
+	border-collapse: separate;
+}
+.table thead th {
+	font-weight: bold;
+	text-align: left;
+	border: none;
+	padding: 10px 15px;
+	background: #EDEDED;
+	font-size: 14px;
+	border-top: 1px solid #ddd;
+}
+.table tr th:first-child, .table tr td:first-child {
+	border-left: 1px solid #ddd;
+}
+.table tr th:last-child, .table tr td:last-child {
+	border-right: 1px solid #ddd;
+}
+.table thead tr th:first-child {
+	border-radius: 20px 0 0 0;
+}
+.table thead tr th:last-child {
+	border-radius: 0 20px 0 0;
+}
+.table tbody td {
+	text-align: left;
+	border: none;
+	padding: 10px 15px;
+	font-size: 14px;
+	vertical-align: top;
+}
+.table tbody tr:nth-child(even) {
+	background: #F8F8F8;
+}
+.table tbody tr:last-child td{
+	border-bottom: 1px solid #ddd;
+}
+.table tbody tr:last-child td:first-child {
+	border-radius: 0 0 0 20px;
+}
+.table tbody tr:last-child td:last-child {
+	border-radius: 0 0 20px 0;
+}
+</style>
+
   </body>
 </html>
