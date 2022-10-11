@@ -70,49 +70,7 @@ hr.fancy-line {
 	}
 	</style>
 
-<!--<div class=»background»>
 
-<img src="https://dragomirson.github.io/logo.jpg" />
-
-</div>
-<style>
-Copy
-
-div.background {
-
-position: fixed;
-
-top: -50%;
-
-left: -50%;
-
-width: 200%;
-
-height: 200%;
-
-}
-
-img {
-
-position: absolute;
-
-top: 0;
-
-left: 0;
-
-right: 0;
-
-bottom: 0;
-
-margin: auto;
-
-min-width: 50%;
-
-min-height: 50%;
-
-}
-</style>
--->
   </head>
   <body  bgcolor="#111111" text="aca8ac">
   
@@ -145,24 +103,37 @@ Engine 4. С школьным другом и по сей день занима�
 <!--           Предпочтения              -->
 
 <table class="table"  align="center" width="800" bgcolor="2d2d2d">
- <tr>
- <td>
+ <thead>
+  <tr>
+   <td>
  
-<h2 align="center" class="color" id="предпочтения">Предпочтения</h2>
+      <h2 align="center" class="color" id="предпочтения">Предпочтения</h2>
+
+   </td>
+   <td>
+   </td>
+  </tr>
+  </thead>
+<tbody>
+<tr>
+<td>
 
 </td>
 <td>
 </td>
-</tr>
-<tr>
-<td>
-<p align="center"><font color="black" size="4">Чаще всего, для разработчика игр важно, обладать богатым опытом и познанием в играх. <br />
+ </tr>
+ <tr>
+ <td>
+ <p align="center"><font color="black" size="4">Чаще всего, для разработчика игр важно, обладать богатым опытом и познанием в играх. <br />
 Существует множество жанров и платформ на которых я играл, но среди них есть и фавориты.
 Лидирующая платформа это ПК, на ней чаще всего лидируют для меня Стратегии,RPG, Симуляторы выживания,Хоррор,Экшены.</font></p>
 </td>
 <td>
 </td>
- </tr>
+</tr>
+ 
+ 
+ </tbody>
  </table>
  <hr class="fancy-line" ></hr>
  
@@ -457,6 +428,7 @@ Developer
 	border-collapse: separate;
 }
 .table thead th {
+    width: 100%;
 	font-weight: bold;
 	text-align: left;
 	border: none;
@@ -483,6 +455,7 @@ Developer
 	padding: 10px 15px;
 	font-size: 14px;
 	vertical-align: top;
+	width: 100%;
 }
 .table tbody tr:nth-child(even) {
 	background: #F8F8F8;
