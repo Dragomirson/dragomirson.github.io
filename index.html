@@ -76,6 +76,21 @@ hr.fancy-line {
 		text-align: left;
 	}
 	</style>
+	<style>
+.image {
+   position: relative;
+}
+
+h2 {
+   position: absolute;
+   top: 80%;
+   left: 10%;
+   width: 100%;
+   margin: 0 auto;
+   width: 80%;
+   height: 50px;
+}
+</style>
 
 
   </head>
@@ -386,6 +401,13 @@ Developer
 	 <br/>
 	 <br/>
 	 <br/>
+ <div align="center" class="image">
+    <img  width="80%" src="images/CQS/3.png"/>
+    <div class="text">
+       <h2><font size="4" color="White" face="Spectral">Передний узел карты может появиться только после узла событий. За ним может последовать один или несколько результирующих узлов карты</font></h2>
+    </div>
+</div>
+
 	 <iframe width="425px" height="300px%" src="https://www.youtube.com/embed/i3QkW-eS6fE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	  
 	  <br/>
@@ -481,25 +503,7 @@ Developer
 .table tbody tr:last-child td:last-child {
 	border-radius: 0 0 20px 0;
 }
-@media screen and (max-width: 800px) {
-  table.table thead {
-    display: none;
-  }
-  table.table tr {
-    display: block;
-    margin-bottom: 1rem;
-    border-bottom: 2px solid #e8e9eb;
-  }
-  table.table td {
-    display: block;
-    text-align: right;
-  }
-  table.table td:before {
-    content: attr(aria-label);
-    float: left;
-    font-weight: bold;
-  }
-}
+
 </style>
 
 <style>
